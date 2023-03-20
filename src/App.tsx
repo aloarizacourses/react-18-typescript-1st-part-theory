@@ -1,12 +1,11 @@
 import { useState } from "react";
-import ExpenseTracker from "./components/expenseTracker/ExpenseTracker";
-import Table from "./components/Table";
+import ExpenseTracker from "./components/expense-tracker/ExpenseTracker";
+
 
 function App() {
   return (
     <>
       <ExpenseTracker />
-      <Table />
     </>
   );
 }
